@@ -1,6 +1,6 @@
 'use strict';
 
-describe('NightShift core object', function () {
+describe('The NightShift core object', function () {
 
     var nightShiftFactory = require('../src/nightshift');
     var nightShift, functions;

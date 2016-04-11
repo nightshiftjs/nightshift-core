@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Function utilities', function () {
+describe('The function utilities', function () {
 
     var functions = require('../../src/utils/functions')();
 
