@@ -3,12 +3,11 @@
 module.exports = function createFunctionUtils() {
 
     /**
-     * The usage of the 'new' keyword prevents a component from being tested in isolation. One solution is to
-     * delegate the instantiation to a factory which can then be injected in the component and mocked for the
-     * testing.
+     * The usage of the 'new' keyword prevents a module from being testable in isolation. A solution is to delegate the
+     * instantiation to a factory which can then be injected in the module and mocked for the testing.
      *
-     * This method creates a factory that can instantiate objects by invoking the specified constructor function
-     * with the arguments it receives.
+     * This method creates a factory that can instantiate objects by invoking the given constructor function with the
+     * arguments it receives.
      *
      * @param Constructor the constructor function to use for instantiating objects
      * @returns {Function} a factory function which takes the same arguments as the constructor function
