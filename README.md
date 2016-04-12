@@ -63,3 +63,9 @@ it('should return the number of parameters of the specified function', function 
     expect(nightShift.functions.getNbOfParams(function (one, two) {})).toEqual(2);
 });
 ```
+
+## Tests
+
+```
+npm install && npm test
+```
