@@ -24,6 +24,9 @@ module.exports = function plugin(nightShift) {
 
 A plugin can rely on the availability of other plugins at runtime. However, it is recommended not to make a plugin explicitly dependent on another plugin, so different versions or implementations of the same plugins can be combined.
 
+## Demo
+Discover what you can do with NightShift in this [demo](https://github.com/nightshiftjs/nightshift-demo)!
+
 ## Utilities
 The NightShift core object provides some utilities.
 
