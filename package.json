@@ -12,9 +12,6 @@
     "build-coverage": "grunt build-coverage",
     "test": "grunt test"
   },
-  "engines": {
-    "node": "0.12.2"
-  },
   "dependencies": {},
   "devDependencies": {
     "glob": "7.0.3",
