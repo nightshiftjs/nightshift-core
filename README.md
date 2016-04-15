@@ -1,5 +1,5 @@
 # nightshift-core
-NightShift has been designed to be configurable and extendable. 
+[NightShift](https://github.com/nightshiftjs) has been designed to be configurable and extendable. 
 
 ## Configurability
 The configurability allows you to use only the features that you need and to avoid undesired dependencies. For example, if you are only interested in [dependency injection](https://github.com/nightshiftjs/nightshift-dependency-injection), then you can configure NightShift as below.
