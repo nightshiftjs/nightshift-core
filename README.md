@@ -22,7 +22,7 @@ module.exports = function plugin(nightShift) {
 };
 ```
 
-A plugin can rely on the availability of other plugins at runtime. However, it is recommended not to make a plugin explicitly dependent on another plugin, so different versions or implementations of the same plugins can be combined.
+A plugin can rely on the availability of other plugins at runtime. However, it is recommended not to make a plugin explicitly dependent on another plugin. This makes it possible to combine different versions or implementations of the same plugins.
 
 ## Demo
 Discover what you can do with NightShift in this [demo](https://github.com/nightshiftjs/nightshift-demo)!
@@ -32,7 +32,7 @@ The NightShift core object provides some utilities.
 
 ### functions
 #### factoryOf(ConstructorFn)
-The usage of the `new` keyword prevents a module from being testable in isolation. Using `new` makes it impossible to test a module without (re-)testing the delegate it instantiates. A solution is to encapsulate the instantiation in a factory which can then be injected in the module and mocked for the testing.
+The usage of the `new` keyword prevents a module from being testable in isolation. Using `new` makes it impossible to test a module without retesting the delegate it instantiates. A solution is to encapsulate the instantiation in a factory which can then be injected in the module and mocked for the testing.
 
 The method `nightShift.functions.factoryOf(ConstructorFn)` creates a factory that can instantiate objects by invoking the given constructor function with the parameters it receives.
 
@@ -69,7 +69,7 @@ it('should return the number of parameters of the given function', function () {
 });
 ```
 
-## Tests
+## Contribute
 The tests can be executed by running the command below.
 ```
 npm install && npm test
