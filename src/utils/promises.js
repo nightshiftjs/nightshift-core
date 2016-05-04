@@ -26,8 +26,8 @@ module.exports = function createPromiseUtils(Promise) {
     };
 
     /**
-     * This method creates a deferred object that exposes the associated Promise instance as well as the resolving
-     * functions that can be used to change its state. It is inspired by Kris Kowal's Q.
+     * This method creates a deferred object that exposes the associated promise as well as the resolving functions that
+     * can be used to change its state. It is inspired by Kris Kowal's Q.
      *
      * @returns a deferred object
      */
