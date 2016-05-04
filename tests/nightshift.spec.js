@@ -3,15 +3,20 @@
 describe('The NightShift core object', function () {
 
     var nightShiftFactory = require('../src/nightshift');
-    var nightShift, functions;
+    var nightShift, functions, promises;
 
     beforeEach(function () {
-        functions = {};
-        nightShift = nightShiftFactory(functions);
+        functions = 'functions';
+        promises = 'promises';
+        nightShift = nightShiftFactory(functions, promises);
     });
 
-    it('should give access to the function utilities', function () {
+    it('should expose the function utilities', function () {
         expect(nightShift.functions).toBe(functions);
+    });
+
+    it('should expose the promise utilities', function () {
+        expect(nightShift.promises).toBe(promises);
     });
 
     it('should set up the given plugin', function () {
