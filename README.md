@@ -30,9 +30,9 @@ Discover what you can do with NightShift in this [demo](https://github.com/night
 ## Working with Promises
 NightShift encourages the usage of promises instead of callback functions. 
 
+NightShift supports two ways of working with promises: one that creates a new promise for an executor function (like ES6 or [bluebird](https://github.com/petkaantonov/bluebird)), and the other one that creates a deferred object (like [Kris Kowal's Q](https://github.com/kriskowal/q)).
+ 
 By default, NightShift relies on ES6 native promises. However, it is possible to plug another promise implementation. For example, you can use the [nightshift-bluebird](https://github.com/nightshiftjs/nightshift-bluebird) plugin.
-
-NightShift supports two ways of working with promises: one that creates a new promise for an executor function (like ES6 or [bluebird](https://github.com/petkaantonov/bluebird)), and the other one that creates a deferred object (like [Kris Kowal's Q](https://github.com/kriskowal/q)). 
 
 ### Promise
 `nightShift.promises.Promise` is the constructor function for promises. 
