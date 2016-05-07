@@ -1,4 +1,6 @@
 # nightshift-core
+[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+
 [NightShift](https://github.com/nightshiftjs) has been designed to be configurable and extendable. 
 
 ## Configurability

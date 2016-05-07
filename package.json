@@ -20,6 +20,7 @@
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-jshint": "1.0.0",
+    "grunt-coveralls": "1.0.1",
     "grunt-istanbul": "0.7.0",
     "grunt-jasmine-nodejs": "1.5.2",
     "lodash": "4.9.0",
