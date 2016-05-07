@@ -1,5 +1,6 @@
 # nightshift-core
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+
+[![Build Status](https://travis-ci.org/nightshiftjs/nightshift-core.svg?branch=promises)](https://travis-ci.org/nightshiftjs/nightshift-core) [![Coverage Status](https://coveralls.io/repos/github/nightshiftjs/nightshift-core/badge.svg?branch=promises)](https://coveralls.io/github/nightshiftjs/nightshift-core?branch=promises)
 
 [NightShift](https://github.com/nightshiftjs) has been designed to be configurable and extendable. 
 
