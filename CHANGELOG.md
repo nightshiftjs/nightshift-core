@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ## 0.3.0 - yyyy-mm-dd
 ### Added
-- Set up Travis CI and Coveralls for continuous integration
+- Set up Travis CI, Coveralls and David for continuous integration
 - Added support for promises
 
 ## 0.2.0 - 2016-04-28
