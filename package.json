@@ -23,7 +23,7 @@
     "grunt-coveralls": "1.0.1",
     "grunt-istanbul": "0.7.0",
     "grunt-jasmine-nodejs": "1.5.2",
-    "lodash": "4.9.0",
+    "lodash": "4.11.2",
     "pretty-error": "2.0.0"
   }
 }
