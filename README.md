@@ -1,10 +1,14 @@
 # nightshift-core
 
-[![Build Status][build]](https://travis-ci.org/nightshiftjs/nightshift-core) [![Coverage Status][coverage]](https://coveralls.io/github/nightshiftjs/nightshift-core) [![Dependencies Status][deps]](https://david-dm.org/nightshiftjs/nightshift-core)
+[![Build Status][build]](https://travis-ci.org/nightshiftjs/nightshift-core) 
 
-[build]: https://img.shields.io/travis/nightshiftjs/nightshift-core/master.svg?maxAge=0&style=flat
-[coverage]: https://img.shields.io/coveralls/nightshiftjs/nightshift-core/master.svg?maxAge=0&style=flat
-[deps]: https://img.shields.io/david/nightshiftjs/nightshift-core/master.svg?maxAge=0&style=flat
+[![Coverage Status][coverage]](https://coveralls.io/github/nightshiftjs/nightshift-core)
+ 
+[![Dependencies Status][deps]](https://david-dm.org/nightshiftjs/nightshift-core)
+
+[build]: https://travis-ci.org/nightshiftjs/nightshift-core.svg?branch=master
+[coverage]: https://coveralls.io/repos/github/nightshiftjs/nightshift-core/badge.svg?branch=master
+[deps]: https://david-dm.org/nightshiftjs/nightshift-core.svg
 
 [NightShift](https://github.com/nightshiftjs) has been designed to be configurable and extendable. 
 
